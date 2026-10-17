@@ -1,0 +1,15 @@
+action,file owner,folder used,path,purpose
+WRITE,Member 4,Member 4,IT24100001/app/features.py,Member 2 feature rules + scoring helpers
+READ,Member 4,Member 4,IT24100001/IT24100001_part2_threshold_deciles.joblib,Part 2 decision rules
+READ,Member 1,Member 1,IT24102060/ds52-train_test_split.joblib,"raw columns, categories, demo customers"
+READ,Member 2,Member 2,IT24101461/IT24101461_selected_data.joblib,processed test set for the checks
+READ,Member 2,Member 2,IT24101461/IT24101461_feature_pipeline.joblib,fitted scaler + encoder + selector
+READ,Member 3,Member 3,IT24102228/IT24102228_xgboost_tuned.joblib,final model: XGBoost
+WRITE,Member 4,Member 4,IT24100001/app/best_pipeline.joblib,pipeline + Part 2 rules + app information
+READ,Member 4,Member 4,IT24100001/app/best_pipeline.joblib,reload test
+WRITE,Member 4,Member 4,IT24100001/app/app.py,Streamlit app
+WRITE,Member 4,Member 4,IT24100001/app/README.md,implementation guide
+WRITE,Member 4,Member 4,IT24100001/app/requirements.txt,pinned library versions
+WRITE,Member 4,Member 4,IT24100001/app/demo_new_customers.csv,"200 test customers, outcome hidden"
+WRITE,Member 4,Member 4,IT24100001/app/demo_answer_key.csv,real outcomes for the demo customers
+WRITE,Member 4,Member 4,IT24100001/IT24100001_part3_file_access_log.csv,this access log

@@ -1,0 +1,9 @@
+Model,Threshold,Value,Precision,Recall,F1,Accuracy,Customers called
+Logistic Regression,0.5,0.5,0.2599,0.6446,0.3705,0.7437,2624
+Logistic Regression,tuned,0.644,0.449,0.4074,0.4272,0.8722,960
+Random Forest,0.5,0.5,0.4504,0.4206,0.435,0.8722,988
+Random Forest,tuned,0.454,0.3998,0.4792,0.4359,0.8549,1268
+XGBoost,0.5,0.5,0.649,0.2202,0.3289,0.8948,359
+XGBoost,tuned,0.203,0.4504,0.4802,0.4648,0.8706,1128
+LightGBM,0.5,0.5,0.3298,0.5964,0.4248,0.811,1913
+LightGBM,tuned,0.651,0.4566,0.4527,0.4547,0.8729,1049
