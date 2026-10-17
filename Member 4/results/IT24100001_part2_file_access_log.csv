@@ -1,0 +1,23 @@
+action,file owner,folder used,path,purpose
+READ,Member 1,Member 1,IT24102060/ds52-train_test_split.joblib,raw customers and labels
+READ,Member 2,Member 2,IT24101461/IT24101461_selected_data.joblib,30 processed columns for scoring
+READ,Member 2,Member 2,IT24101461/IT24101461_feature_pipeline.joblib,scaler + encoder + selector
+READ,Member 3,Member 3,IT24102228/IT24102228_logistic_regression_tuned.joblib,tuned Logistic Regression
+READ,Member 3,Member 3,IT24102228/IT24102228_random_forest_tuned.joblib,tuned Random Forest
+READ,Member 3,Member 3,IT24102228/IT24102228_xgboost_tuned.joblib,tuned XGBoost
+READ,Member 3,Member 3,IT24102228/IT24102228_lightgbm_tuned.joblib,tuned LightGBM
+WRITE,Member 4,Member 4,IT24100001/IT24100001_part2_oof_scores.joblib,OOF cache after Logistic Regression
+WRITE,Member 4,Member 4,IT24100001/IT24100001_part2_oof_scores.joblib,OOF cache after Random Forest
+WRITE,Member 4,Member 4,IT24100001/IT24100001_part2_oof_scores.joblib,OOF cache after XGBoost
+WRITE,Member 4,Member 4,IT24100001/IT24100001_part2_oof_scores.joblib,OOF cache after LightGBM
+WRITE,Member 4,Member 4,IT24100001/figures/07_threshold_f1_all_models.png,figure for the report
+WRITE,Member 4,Member 4,IT24100001/figures/08_threshold_tradeoff_final.png,figure for the report
+WRITE,Member 4,Member 4,IT24100001/figures/09_threshold_before_after_test.png,figure for the report
+WRITE,Member 4,Member 4,IT24100001/figures/10_decile_lift.png,figure for the report
+WRITE,Member 4,Member 4,IT24100001/figures/11_cumulative_gains.png,figure for the report
+WRITE,Member 4,Member 4,IT24100001/IT24100001_test_calling_queue.csv,ranked calling queue (open in Excel)
+WRITE,Member 4,Member 4,IT24100001/IT24100001_part2_threshold_deciles.joblib,"threshold, final model, decile cut points (for the app)"
+WRITE,Member 4,Member 4,IT24100001/IT24100001_threshold_table.csv,threshold per model (OOF)
+WRITE,Member 4,Member 4,IT24100001/IT24100001_threshold_test_check.csv,0.5 vs tuned on the test set
+WRITE,Member 4,Member 4,IT24100001/IT24100001_decile_table.csv,decile table
+WRITE,Member 4,Member 4,IT24100001/IT24100001_part2_file_access_log.csv,this access log

@@ -1,0 +1,5 @@
+Model,OOF F1 @0.5,Best threshold,OOF F1 @best,Precision @best,Recall @best,% customers called,OOF PR-AUC
+XGBoost,0.3299,0.2033,0.451,0.4284,0.4762,13.006,0.4246
+LightGBM,0.4131,0.6506,0.4381,0.4399,0.4363,11.6014,0.4144
+Logistic Regression,0.3657,0.6444,0.4193,0.4376,0.4025,10.7609,0.3845
+Random Forest,0.4115,0.4538,0.4152,0.3811,0.4559,13.9958,0.3938
