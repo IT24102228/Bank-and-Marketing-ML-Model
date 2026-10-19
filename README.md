@@ -4,6 +4,17 @@
 
 A four-person project that predicts which bank customers are likely to subscribe to a term deposit after a telemarketing call, and turns that prediction into a practical tool: a ranked **calling queue** a call centre can work through.
 
+<p align="center">
+  <a href="https://ashenkavisha-bank-marketing-call-planner.streamlit.app/">
+    <img src="https://img.shields.io/badge/Launch_Live_App-Streamlit-15803D?style=for-the-badge&logo=streamlit&logoColor=white" alt="Launch the live Streamlit app">
+  </a>
+</p>
+
+<p align="center"><strong>Who should the bank call first?</strong><br>
+Explore customer predictions, score a single customer, or build a ranked campaign calling queue.</p>
+
+<p align="center">🌐 <a href="https://ashenkavisha-bank-marketing-call-planner.streamlit.app/">Try the Bank Marketing Prediction & Call Planner</a> · No local setup required</p>
+
 The project covers the full path from raw data to a working app:
 
 ```
